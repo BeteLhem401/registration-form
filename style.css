@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.container {
+    width: 600px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.row div {
+    flex: 1;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    color: rgb(233, 222, 222);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blue {
+    background: #007bff;
+}
+
+.red {
+    background: #dc3545;
+}
+
+.link {
+    text-align: center;
+    margin-top: 10px;
+}
+.group {
+    margin-top: 8px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.option input {
+    width: auto;
+}
