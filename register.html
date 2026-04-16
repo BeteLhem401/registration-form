@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Registration Form</h2>
+
+    <form id="registerForm">
+        <div class="row">
+            <div>
+                <label>First Name</label>
+                <input type="text" required>
+            </div>
+
+            <div>
+                <label>Last Name</label>
+                <input type="text" required>
+            </div>
+
+            <div>
+                <label>Department</label>
+                <select>
+                    <option>Computer Science</option>
+                    <option>Software Engineering</option>
+                    <option>Information Technology</option>
+                </select>
+            </div>
+        </div>
+
+  <div class="row">
+
+    <!-- Gender -->
+    <div>
+        <label>Gender</label>
+        <div class="group">
+            <label class="option">
+                <input type="radio" name="gender"> Male
+            </label>
+
+            <label class="option">
+                <input type="radio" name="gender"> Female
+            </label>
+
+            <label class="option">
+                <input type="radio" name="gender"> Other
+            </label>
+        </div>
+    </div>
+
+    <!-- Hobbies -->
+    <div>
+        <label>Hobbies</label>
+        <div class="group">
+            <label class="option">
+                <input type="checkbox"> Reading
+            </label>
+
+            <label class="option">
+                <input type="checkbox"> Sports
+            </label>
+
+            <label class="option">
+                <input type="checkbox"> Music
+            </label>
+
+            <label class="option">
+                <input type="checkbox"> Travel
+            </label>
+        </div>
+    </div>
+
+    <!-- Others -->
+    <div>
+        <label>Others</label>
+        <textarea></textarea>
+    </div>
+
+</div>
+
+        <div class="buttons">
+            <button type="submit" class="btn blue">Register</button>
+            <button type="reset" class="btn red">Clear</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
