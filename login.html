@@ -11,21 +11,21 @@
     <h2>Login Form</h2>
 
     <form id="loginForm">
-        <label>Username:</label>
-        <input type="text" id="username" required>
 
-        <label>Password:</label>
-        <input type="password" id="password" required>
+    <label>Username:</label>
+    <input type="text" id="username">
+    <small class="error" id="userError"></small>
 
-        <div class="buttons">
-            <button type="submit" class="btn blue">Login</button>
-            <button type="reset" class="btn red">Clear</button>
-        </div>
+    <label>Password:</label>
+    <input type="password" id="password">
+    <small class="error" id="passError"></small>
 
-        <p class="link">
-            <a href="register.html">Create New Account</a>
-        </p>
-    </form>
+    <div class="buttons">
+        <button type="submit" class="btn blue">Login</button>
+        <button type="reset" class="btn red">Clear</button>
+    </div>
+
+</form>
 </div>
 
 <script src="script.js"></script>
