@@ -80,3 +80,9 @@ input, select, textarea {
 .option input {
     width: auto;
 }
+.error {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 3px;
+}
