@@ -10,32 +10,35 @@
 <div class="container">
     <h2>Registration Form</h2>
 
-    <form id="registerForm">
+    <form id="registerForm" action="register.php" method="POST">
         <div class="row">
             <div>
                 <label>First Name</label>
-                <input type="text" id="firstName">
+                <input type="text" id="firstName" name="first_name">
 <small class="error" id="firstError"></small>
             </div>
 
             <div>
                 <label>Last Name</label>
-                <input type="text" id="lastName">
+                <input type="text" id="lastName" name="last_name">
 <small class="error" id="lastError"></small>
             </div>
             <div>
 <label>Username</label>
-<input type="text" id="regUsername">
+<input type="text" id="regUsername"  name="username">
 <small class="error" id="usernameError"></small></div>
 <div><label>Email</label>
-<input type="email" id="email">
+<input type="email" id="email" name="email">
 <small class="error" id="emailError"></small></div>
-        <div><label>Confirm Password</label>
-<input type="password" id="confirmPassword">
-<small class="error" id="confirmError"></small></div>
+   <div>
+    <label>Password</label>
+    <input type="password" id="regPassword" name="password">
+    <small class="error" id="passwordError"></small>
+</div>     
 <div><label>Confirm Password</label>
 <input type="password" id="confirmPassword">
 <small class="error" id="confirmError"></small></div>
+
             <div>
                 <label>Department</label>
                 <select id="department">
