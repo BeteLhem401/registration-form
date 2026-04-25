@@ -42,3 +42,40 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
         }
     }
 });
+
+const registerForm = document.getElementById("registerForm");
+
+if (registerForm) {
+
+    registerForm.addEventListener("submit", function(e) {
+
+        e.preventDefault();
+
+        let firstName = document.getElementById("firstName").value.trim();
+        let username = document.getElementById("regUsername").value.trim();
+
+        let firstError = document.getElementById("firstError");
+        let usernameError = document.getElementById("usernameError");
+
+        firstError.textContent = "";
+        usernameError.textContent = "";
+
+        let valid = true;
+
+        if (firstName === "") {
+            firstError.textContent = "First name required";
+            valid = false;
+        }
+
+        if (username.length < 4) {
+            usernameError.textContent = "Username must be 4+ letters";
+            valid = false;
+        }
+
+        if (valid) {
+            alert("Registration Success");
+        }
+
+    });
+
+}

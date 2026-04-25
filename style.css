@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    width: 600px;
+    width: 900px;
     margin: 60px auto;
     background: #fff;
     padding: 30px;
@@ -27,17 +27,20 @@ input, select, textarea {
     margin-top: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    box-sizing: border-box;
+
 }
 
 .row {
     display: flex;
-    justify-content: space-between;
     gap: 30px;
     margin-top: 10px;
+     flex-wrap: wrap;
 }
 
 .row div {
     flex: 1;
+    min-width: 180px;
 }
 
 .buttons {
@@ -67,6 +70,9 @@ input, select, textarea {
 }
 .group {
     margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .option {
