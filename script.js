@@ -1,4 +1,4 @@
-document.getElementById("loginForm").addEventListener("submit", function(e) {
+/* document.getElementById("loginForm").addEventListener("submit", function(e) {
     e.preventDefault();
 
     let username = document.getElementById("username").value.trim();
@@ -41,7 +41,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
             alert("Invalid username or password ❌");
         }
     }
-});
+}); */
 
 const registerForm = document.getElementById("registerForm");
 
@@ -49,7 +49,7 @@ if (registerForm) {
 
     registerForm.addEventListener("submit", function(e) {
 
-        e.preventDefault();
+       // e.preventDefault();
 
         let firstName = document.getElementById("firstName").value.trim();
         let username = document.getElementById("regUsername").value.trim();
