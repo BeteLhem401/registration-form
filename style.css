@@ -92,3 +92,14 @@ input, select, textarea {
     display: block;
     margin-top: 3px;
 }
+@media (max-width: 900px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+}
