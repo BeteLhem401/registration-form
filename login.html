@@ -10,14 +10,14 @@
 <div class="container">
     <h2>Login Form</h2>
 
-    <form id="loginForm">
+    <form id="loginForm" action="login.php" method="POST">
 
     <label>Username:</label>
-    <input type="text" id="username">
+    <input type="text" id="username" name="username">
     <small class="error" id="userError"></small>
 
     <label>Password:</label>
-    <input type="password" id="password">
+    <input type="password" id="password" name="password">
     <small class="error" id="passError"></small>
 
     <div class="buttons">
